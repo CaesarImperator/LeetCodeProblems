@@ -25,7 +25,7 @@ void reverseList(struct ListNode **head) {
 
 //check whether a number is a palindrome. Each digit is stored as a node in singly-linked list
 
-bool isPalindrome(struct ListNode* head){
+bool isPalindrome(struct ListNode *head){
     
     //find the mid point with tortoise and hare
     
@@ -53,5 +53,4 @@ bool isPalindrome(struct ListNode* head){
     }
     
     return true;
-
 }
